@@ -1,0 +1,85 @@
+/* Define color and font variables */
+:root {
+    --primary-color: #52489C;
+    --secondary-color: #4062BB;
+    --accent1-color: #59C3C3;
+    --accent2-color: #F45B69;
+    
+    --heading-font: 'Montserrat', sans-serif;
+    --text-font: 'Open Sans', sans-serif;
+    --max-width: 1200px;
+}
+  
+/* General body styles */
+body {
+    font-family: var(--text-font);
+    margin: 0;
+    padding: 0;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    color: var(--primary-color);
+    background-color: #ebebeb;
+}
+  
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+  
+/* Paragraphs */
+p {
+    font-family: var(--text-font);
+    color: var(--primary-color);
+    line-height: 1.6;
+}
+  
+/* Remove underline from social media image links */
+.social a img {
+    text-decoration: none;
+    border: none;
+}
+  
+/* Hero section */
+.hero {
+    position: relative;
+}
+  
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+    background-color: rgba(82, 72, 156, 0.7); /* semi-transparent primary color */
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+  
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    font-family: var(--text-font);
+}
+  
+/* Float image to the right inside article */
+.hero article img {
+    float: right;
+    margin-left: 15px;
+    max-width: 120px;
+}
+  
+/* Optional utility classes */
+.container {
+    padding: 0 15px;
+}
