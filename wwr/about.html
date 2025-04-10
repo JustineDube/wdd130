@@ -10,11 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="grid-header">
         <div class="logo">
             <img src="images/logo.jpeg" alt="Rafting Company Logo">
         </div>
-        <nav>
+        <nav class="flex-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -24,65 +24,58 @@
         </nav>
     </header>
     <main>
-        <!-- Hero Section from Original -->
         <section class="hero">
-            <img src="images/hero.jfif" alt="Hero Background" class="hero-img">
-            <h1>White Water Rafting JD Co.</h1>
-            <article>
-                <img src="images/client.jpg" alt="Happy Client">
-                <p>Our mission is to provide exhilarating rafting adventures that create unforgettable memories. Join us as we navigate the thrill of white water!</p>
-            </article>
+            <img src="images/hero.jfif" alt="White water rafting adventure" class="hero-img">
+            <h1>White Water Rafting</h1>
         </section>
 
-        <!-- Wireframe Content Structure -->
-        <section class="content-section">
-            <h2>White Water Rafting</h2>
-            <div class="rafting-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit facilisis pretium sit amet quis magna. Aenean velit odio elementum in tempus ut vehicula eu.</p>
-                
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</p>
-                <img src="images/rafting-description.jfif" alt="Rafting Experience">
+        <section class="history-section">
+            <h2>History</h2>
+            <div class="history-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.</p>
+                <img src="images/history.jfif" alt="Our rafting history">
+                <p>Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit facilisis pretium sit amet quis magna.</p>
             </div>
-            
-            <div class="history">
-                <h2>History</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</p>
-                <img src="images/history.jfif" alt="Rafting History">
+        </section>
+
+        <section class="adventure-section">
+            <h2>Adventure Awaits You!</h2>
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/rafting1.jpg" alt="Los Dientes del Diablo rapids">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting2.jpg" alt="Big Mallard river">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting3.jpg" alt="Half day adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting4.jpg" alt="Full day expedition">
+                    <figcaption>Full Day Expedition</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting5.jpg" alt="Extreme rapids">
+                    <figcaption>Extreme Rapids</figcaption>
+                </figure>
             </div>
-            
-            <section class="adventures">
-                <h2>Adventure Awaits You!</h2>
-                <div class="adventure-gallery">
-                    <figure>
-                        <img src="images/rafting1.jpg" alt="Los Dientes del Diablo">
-                        <figcaption>Los Dientes del Diablo</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rafting2.jpg" alt="Big Mallard">
-                        <figcaption>Big Mallard</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rafting3.jpg" alt="Half Day Adventure">
-                        <figcaption>Half Day Adventure</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rafting4.jpg" alt="Full Day Expedition">
-                        <figcaption>Full Day Expedition</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rafting5.jpg" alt="Extreme Rapids">
-                        <figcaption>Extreme Rapids</figcaption>
-                    </figure>
-                </div>
-            </section>
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 White Water Rafting JD Co. | Justine Dube</p>
-        <div class="social-icons">
-            <a href="https://facebook.com"><img src="images/facebook-icon.webp" alt="Facebook"></a>
-            <a href="https://twitter.com"><img src="images/twitter-icon.webp" alt="Twitter"></a>
-            <a href="https://instagram.com"><img src="images/instagram.webp" alt="Instagram"></a>
+        <p>&copy; 2025 White Water Rafting | <a href="site-plan-rafting.html">Site Plan</a></p>
+        <div class="social-links">
+            <a href="https://facebook.com" aria-label="Facebook">
+                <img src="images/facebook-icon.webp" alt="Facebook icon">
+            </a>
+            <a href="https://twitter.com" aria-label="Twitter">
+                <img src="images/twitter-icon.webp" alt="Twitter icon">
+            </a>
+            <a href="https://instagram.com" aria-label="Instagram">
+                <img src="images/instagram.webp" alt="Instagram icon">
+            </a>
         </div>
     </footer>
 </body>
